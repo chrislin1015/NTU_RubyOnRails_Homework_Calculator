@@ -54,4 +54,5 @@ begin
 	puts "請問是否要繼續 y / n"
 	puts "=================="
 	_YorN = gets.chomp;
+	
 end while (_YorN == "Y") || (_YorN == "y") #檢查是否輸入的是Y或y這個字母
